@@ -6,7 +6,7 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3000; 
 
-const errorMsg = chalk.bgKeyword('white').redBright ; 
+//const errorMsg = chalk.bgKeyword('white').redBright ; 
 const successMsg = chalk.bgKeyword('green').white ; 
 
 // Serve static files from the public directory
